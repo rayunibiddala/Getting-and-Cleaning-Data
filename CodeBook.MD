@@ -1,4 +1,7 @@
-Data source 
+Code Book
+=========
+
+Data source
 -----------
 
 This raw dataset is derived from the "Human Activity Recognition Using Smartphones Data Set". The dataset contains sensor information collected from 30 volunteers for size activities performed wearing Samsung Galaxy SII.  
@@ -17,32 +20,31 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 Based on instructions in course project the data set contains mean and standard deviation for each measurement. Following are the vavariables that have to do with mean and standard deviation. 
 
-
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-*tBodyAcc-XYZ
-*tGravityAcc-XYZ
-*tBodyAccJerk-XYZ
-*tBodyGyro-XYZ
-*tBodyGyroJerk-XYZ
-*tBodyAccMag
-*tGravityAccMag
-*tBodyAccJerkMag
-*tBodyGyroMag
-*tBodyGyroJerkMag
-*fBodyAcc-XYZ
-*fBodyAccJerk-XYZ
-*fBodyGyro-XYZ
-*fBodyAccMag
-*fBodyAccJerkMag
-*fBodyGyroMag
-*fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-*mean(): Mean value
-*std(): Standard deviation
-*meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+* mean(): Mean value
+* std(): Standard deviation
+* meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
 
