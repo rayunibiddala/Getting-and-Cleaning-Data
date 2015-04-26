@@ -33,7 +33,7 @@ From the data set in step 4, creates a second, independent tidy data set with th
 
 ## How all of the scripts work and how they are connected
 
-1. Source code for the project available at Git url: . Clone the git project. 
+1. Clone the git project, the source code for the project available at Git url: https://github.com/rayunibiddala/Getting-and-Cleaning-Data.  
 2. download the raw data http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
 3. open a R console and set the working directory to the repository root (use setwd())
 4. unzip raw data and copy the directory `UCI HAR Dataset` to the R working directory. 
