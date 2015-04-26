@@ -79,7 +79,7 @@ run_analysis <- function ()
     summaryTidyData <- summaryTidyData[1:81]
        
     # Write data to file
-    write.csv(combinedData, file = "./tidy_data.txt",row.names = FALSE)      
-    write.csv(summaryTidyData, file = "./tidy_data_mean.txt",row.names = FALSE) 
+    write.table(combinedData, file = "./tidy_data.txt",row.names = FALSE)      
+    write.table(summaryTidyData, file = "./tidy_data_mean.txt",row.names = FALSE) 
    
 }
