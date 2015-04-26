@@ -33,7 +33,6 @@ From the data set in step 4, creates a second, independent tidy data set with th
 
 ## How all of the scripts work and how they are connected
 
-To run this project 
 1. Source code for the project available at Git url: . Clone the git project. 
 2. download the raw data http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
 3. open a R console and set the working directory to the repository root (use setwd())
